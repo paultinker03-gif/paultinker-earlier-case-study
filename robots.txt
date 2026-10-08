@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://earlier.paultinker.uk/sitemap.xml

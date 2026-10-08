@@ -1,0 +1,17 @@
+/* Earlier work theme on the shared case study template.
+   Paul's own type (DM Serif Text headings, DM Sans text) and a green accent, #13734a (5.9:1 on white). */
+@font-face { font-family: 'Mulish'; src: url('fonts/dm-serif-text.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Lato'; src: url('fonts/dm-sans.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+:root { --accent: #13734a; --navy: #14231c; --ink: #1d1d1d; --tint: #eef5f1; --line: #e3e3e3; }
+body, p, li, figcaption, dt, dd, .eyebrow, .foot-links { font-family: 'DM Sans', Arial, sans-serif; }
+h1, h2, h3 { font-family: 'DM Serif Text', Georgia, serif; font-weight: 400; letter-spacing: -0.01em; color: var(--navy); }
+.top .back, a { color: var(--accent); }
+.foot-links a { color: var(--accent); }
+
+/* The showreel: a 16:9 frame on the page grid, after the intro. */
+.showreel { margin-top: clamp(16px, 3vw, 32px); margin-bottom: clamp(88px, 10vw, 136px); }
+.video-embed { position: relative; aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; background: #0d1a14; box-shadow: 0 0 0 1px var(--line); }
+.video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.showreel figcaption { margin-top: 12px; }
+.showreel figcaption a { white-space: nowrap; }
+.intro h1 { max-width: none; text-wrap: wrap; }
