@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Earlier work · Paul Tinker, product and design systems designer</title>
+<title>Earlier work · Paul Tinker, Principal Product Designer · Design Systems</title>
 <meta name="description" content="Paul Tinker's earlier work, 2012 to 2017: art direction, design and illustration across digital campaigns, apps, video and social for The Guardian, Imagination, Razorfish, Isobar and Ogilvy.">
 <meta property="og:title" content="Earlier work: the foundations of my career">
 <meta property="og:description" content="Art direction, product design and digital experiences across agencies, brands and platforms, 2012 to 2017.">
@@ -17,31 +17,46 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJQHXD9PGP"></script>
 <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-KJQHXD9PGP');</script>
 <link rel="icon" href="assets/favicon.png">
-<link rel="stylesheet" href="assets/case-study.css">
-<link rel="stylesheet" href="assets/earlier.css">
+<link rel="stylesheet" href="assets/case-study.css?v=2">
+<link rel="stylesheet" href="assets/earlier.css?v=2">
+<!-- paultinker 2026: content slides in on arrival (classes set before the first paint) -->
+<script>(function(h){if(matchMedia('(max-width: 700px), (max-height: 500px) and (orientation: landscape)').matches)return;h.classList.add('pt-intro');if(/[?&]via=home/.test(location.search))h.classList.add('pt-from-home');setTimeout(function(){h.classList.add('pt-go')},2500);})(document.documentElement);</script>
+<!-- pt-priority: the title's fonts and the 3D hero load first (desktop only for the 3D) -->
+<link rel="preload" href="assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/dm-serif-text.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/_shared/transition.css">
+<link rel="preload" as="font" type="font/woff2" href="/_shared/fonts/inter-400.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/_shared/fonts/lato-700.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/_shared/fonts/dm-serif-text.woff2" crossorigin>
+<link rel="stylesheet" href="/_shared/fonts.css">
 </head>
 <body>
 
 <a class="skip" href="#main">Skip to the case study</a>
 <header class="top">
   <div class="top-in">
-    <a class="brand" href="https://paultinker.uk/"><span>Paul Tinker</span><small>Design Systems Product Lead</small></a>
-    <a class="back" href="https://paultinker.uk/#agencies">Back to portfolio</a>
+    <a class="brand" href="https://paultinker.uk/"><span>Paul Tinker</span><small>Principal Product Designer · Design Systems</small></a>
+    <a class="back back-x" href="https://paultinker.uk/#agencies" aria-label="Back to portfolio" title="Back to portfolio"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></a>
   </div>
   <div class="progress" aria-hidden="true"></div>
 </header>
 
 <main id="main">
-  <section class="intro">
-    <p class="eyebrow">Earlier work · 2012 to 2017</p>
+  <figure class="bleed" data-pt-scene><picture><source media="(min-width: 701px) and (min-height: 501px), (min-width: 701px) and (orientation: portrait)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><img src="images/hero-phone.webp" srcset="images/hero-phone-600.webp 600w, images/hero-phone.webp 1200w" sizes="100vw" width="1200" height="1500" alt="A still from the Capco showreel: a woman stands in front of a large interactive wall of city buildings and data." fetchpriority="high"></picture></figure>
+
+  <section class="intro intro-head">
+    <p class="eyebrow">Case study · Earlier work</p>
     <h1>The foundations of my career</h1>
     <p class="lede">Art direction, product design and digital experiences across agencies, brands and platforms.</p>
-    <p class="intro-p">Art direction, design and illustration across digital campaigns, apps, video and social for leading agencies and brands, including The Guardian, Imagination, Razorfish, Isobar and Ogilvy. These earlier projects established the core foundations of my approach to design systems, platform scaling and cross-functional leadership, principles that directly shape my current work at global scale.</p>
-    <dl class="meta">
+    <dl class="meta meta-facts">
       <div><dt>Role</dt><dd>Senior Designer and Art Director</dd></div>
       <div><dt>When</dt><dd>2012 to 2017</dd></div>
       <div><dt>Agencies and brands</dt><dd>The Guardian, Imagination, Razorfish, Isobar, Ogilvy and many others</dd></div>
     </dl>
+  </section>
+
+  <section class="intro intro-more">
+    <p class="intro-p">Art direction, design and illustration across digital campaigns, apps, video and social for leading agencies and brands, including The Guardian, Imagination, Razorfish, Isobar and Ogilvy. These earlier projects established the core foundations of my approach to design systems, platform scaling and cross-functional leadership, principles that directly shape my current work at global scale.</p>
   </section>
 
   <figure class="wide showreel rv">
@@ -54,13 +69,14 @@
 
 <footer class="foot">
   <nav class="foot-links" aria-label="Contact and links">
-    <a href="#" class="to-top">Back to top ↑</a>
     <a href="https://paultinker.uk/#agencies">Back to portfolio</a>
     <a href="https://www.linkedin.com/in/paultinker/">LinkedIn</a>
     <a href="https://drive.google.com/file/d/1yZDxT7tIeJI6uo1lH3eONTze7y4aqznz/view?usp=sharing">Download CV (PDF)</a>
     <a href="mailto:hello@paultinker.uk">hello@paultinker.uk</a>
+    <a href="#" class="to-top">Back to top ↑</a>
   </nav>
 </footer>
 <script src="assets/case-study.js"></script>
+<script src="/_shared/transition.js" defer></script>
 </body>
 </html>

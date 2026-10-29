@@ -15,3 +15,6 @@ h1, h2, h3 { font-family: 'DM Serif Text', Georgia, serif; font-weight: 400; let
 .showreel figcaption { margin-top: 12px; }
 .showreel figcaption a { white-space: nowrap; }
 .intro h1 { max-width: none; text-wrap: wrap; }
+
+/* the showreel ends the page, so the footer follows it as closely as on the other case studies (Paul 2026-10-28) */
+main > .showreel:last-child { margin-bottom: 0 !important; }
